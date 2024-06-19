@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
 .btn {
     display: inline-block;
     vertical-align: top; /*выравнивает текстовые элементы по вертикали относительно друг друга.*/
-    padding: 10px 15px;
+    padding: 8px 30px;
     border: 3px solid #fff;
     font-size: 14px;
     font-weight: 700;
