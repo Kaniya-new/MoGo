@@ -32,7 +32,12 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-background-size: cover;/* картинка занимает всю площадь экрана */
     background-size: cover;
 }
+.intro_inner {
+    width: 100%;
+    max-width: ;
+}
 .intro_titel {
+    color: #fff;
     font-size: 150px;
     font-weight: 700;
     text-transform: uppercase;/*В CSS есть свойство text-transform. 
@@ -41,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
      ПРИМЕР ТЕКСТА С TEXT-TRANSFORM: UPPERCASE*/
      text-align: center;
      line-height: 1;/*межстрочный интервал. Для блочных элементов определяет минимальную высоту строки текста. */
-     
+
 }
 /* Header */
 .header {
