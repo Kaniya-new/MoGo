@@ -34,7 +34,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 .intro_inner {
     width: 100%;
-    max-width: ;
+    max-width: 800px; 
+    margin: 0 auto;
+}
+.intro_suptitle {
+    font-family: "Kaushan Script", cursive;
+    font-size: 72px;
+    color: #fff;
 }
 .intro_titel {
     color: #fff;
