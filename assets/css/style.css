@@ -84,8 +84,12 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
-
+    transition: background .1 linear ; /* плавный переход*/
 }   
+.btn :hover {
+    background-color: #fff;
+    color: #333;
+}
 /* Header */
 .header {
     width: 100%;
