@@ -32,6 +32,15 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-background-size: cover;/* картинка занимает всю площадь экрана */
     background-size: cover;
 }
+.intro_titel {
+    font-size: 150px;
+    font-weight: 700;
+    text-transform: uppercase;/*В CSS есть свойство text-transform. 
+    С помощью него можно менять регистр текста: можно преобразовать
+     текст в ПРОПИСНЫЕ, строчные или Капитализировать Только Первые Буквы Слов. 
+     ПРИМЕР ТЕКСТА С TEXT-TRANSFORM: UPPERCASE*/
+     
+}
 /* Header */
 .header {
     width: 100%;
@@ -79,8 +88,9 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     width: 100%;
     height: 3px;
-    display: none;
-    background-color: #fff;
+    
+    background-color: #fce38a;
+    opacity: 0; /*плавный переход к желтой подсветки*/
     position: absolute;
     top: 100%;/* полоска в самом низу*/
     left: 0;
@@ -90,5 +100,5 @@ h1, h2, h3, h4, h5, h6 {
     color: #fce38a;
 }
 .nav_link:hover:after {
-    display: block;
+    opacity: 1; /*полоска под меню появляется плавно*/
 }
