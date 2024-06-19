@@ -41,13 +41,14 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     max-width: 800px; 
     margin: 0 auto;
+    text-align: center;
 }
 .intro_suptitle {
     margin-bottom: 20px;
     font-family: "Kaushan Script", cursive;
     font-size: 72px;
     color: #fff;
-    text-align: center;/*описывает, как выравнивается текст внутри блока по горизонтали*/
+    /*text-align: center;описывает, как выравнивается текст внутри блока по горизонтали*/
 
 }
 .intro_titel {
@@ -58,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
     С помощью него можно менять регистр текста: можно преобразовать
      текст в ПРОПИСНЫЕ, строчные или Капитализировать Только Первые Буквы Слов. 
      ПРИМЕР ТЕКСТА С TEXT-TRANSFORM: UPPERCASE*/
-     text-align: center;
+     
      line-height: 1;/*межстрочный интервал. Для блочных элементов определяет минимальную высоту строки текста. */
 
 }
