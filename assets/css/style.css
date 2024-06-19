@@ -41,11 +41,19 @@ h1, h2, h3, h4, h5, h6 {
     right: 0;
     z-index: 1000; /* поверх всего */
 }
+.header_inner {
+    display: flex;/*flex Блоки див выстраиваются в линию
+    Элемент ведёт себя как блочный и выкладывает содержимое согласно флекс-модели.*/
+    justify-content: space-between;/*space-between
+    Флексы равномерно распределяются по всей строке. Первый и последний элемент прижимаются к соответствующим краям контейнера.*/
+}
+
 .header_logo {
     font-size: 30px;
     font-weight: 700;
     color: #fff;
 }
+
 .nav {
     font-size: 14px;
     text-transform: uppercase;/* тескт большими буквами */
