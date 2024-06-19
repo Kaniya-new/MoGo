@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5, h6 {
      line-height: 1;/*межстрочный интервал. Для блочных элементов определяет минимальную высоту строки текста. */
 
 }
-.intro_titel :after {
+.intro_titel:after {
     content: "";
     display: block;
     width: 60px;
