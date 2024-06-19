@@ -26,6 +26,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* intro */
 .intro {
+    display: flex;/*позволяет вращать блоки внутри контейнера*/
+    flex-direction: column;/*Обратите внимание, что flex-direction: column 
+    не выравнивает блоки по оси, перпендикулярной главной. 
+    Главная ось сама меняет своё расположение, и теперь направлена сверху вниз*/
+    justify-content: center; /*Флексы выравниваются по центру строки.*/
     width: 100%;
     height: 100vh; 
     background: url(/assets/images/intro.jpg) center no-repeat; 
@@ -41,6 +46,8 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Kaushan Script", cursive;
     font-size: 72px;
     color: #fff;
+    text-align: center;/*описывает, как выравнивается текст внутри блока по горизонтали*/
+
 }
 .intro_titel {
     color: #fff;
