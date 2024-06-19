@@ -50,3 +50,10 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 14px;
     text-transform: uppercase;/* тескт большими буквами */
 }
+.nav_link {
+    color: #fff;
+    text-decoration: none;
+}
+.nav_link:hover {
+    color: #fce38a;
+}
