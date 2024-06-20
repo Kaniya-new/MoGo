@@ -154,6 +154,10 @@ h1, h2, h3, h4, h5, h6 {
 /*Slader*/
 .slader {
     display: flex;
+    justify-content: space-between;/*space-between
+    Флексы равномерно распределяются по всей строке. Первый и последний элемент прижимаются к соответствующим краям контейнера.*/
+    align-items: center;/*Флексы выравниваются по линии поперечной оси.*/
+
 
 }
 .slader_item {
