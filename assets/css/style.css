@@ -161,10 +161,27 @@ h1, h2, h3, h4, h5, h6 {
     width: 23%;
     padding: 20px  0; /*Свойство padding устанавливает внутренние отступы/поля со всех сторон элемента*/
     border-top: 3px solid #fff;
+
+    position: relative;
+
     font-style: 18%;
     color: #fff;
     text-transform: uppercase;
     opacity: .7;/*opacity устанавливает непрозрачность элемента.*/
+}
+.slider_item.active {
+    opacity: 1;
+}
+.slider_item.active:before {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: #f38181;
+    position: absolute;
+    top: -3px;
+    left: 0;
+    z-index: 1;/* поверх всего */
 }
 .slider_num {
     font-style: 24px;
